@@ -1,0 +1,287 @@
+// Adding parent is a little bit too complexed. Not elegant, it is a little ugly.
+import java.util.Set;
+import java.util.Iterator;
+public class BSTMap<K extends Comparable<K>, V> implements Map61B<K, V>{
+    private class Node{
+        K key;
+        V value;
+        Node left;
+        Node right;
+        Node parent;
+
+        Node(K k, V v){
+            key = k;
+            value = v;
+            left = null;
+            right = null;
+            parent = null;
+        }
+        Node(){
+            size = 1;
+        }
+        int getChildrenNum(){
+            int childrenNum = 0;
+            if (left != null){
+                childrenNum++;
+            }
+            if (right != null){
+                childrenNum++;
+            }
+            return childrenNum;
+        }
+    }
+
+    private Node root;
+    private int size;
+
+    public BSTMap(K k, V v){
+        root = new Node(k, v);
+        size = 1;
+    }
+    public BSTMap(){
+        root = new Node();
+        size = 1;
+    }
+
+    /** Removes all of the mappings from this map. */
+    @Override
+    public void clear(){
+        root = null;
+        size = 0;
+    }
+
+    /* Returns true if this map contains a mapping for the specified key. */
+    @Override
+    public boolean containsKey(K k){
+        return get(k) != null;
+    }
+
+    /* Returns the value to which the specified key is mapped, or null if this
+     * map contains no mapping for the key.
+     */
+    @Override
+    public V get(K k){
+        if (size == 0){
+            return null;
+        }
+        return get(root, k);
+    }
+    // Private helper to deal with get(key).
+    private V get(Node n, K k){
+        if (n == null){
+            throw new IllegalArgumentException("A null key in get(Node, L)");
+        }
+        if (k == null){
+            throw new IllegalArgumentException("Null argument key in get()");
+        }
+        int cmp = k.compareTo(n.key);
+        if (cmp < 0){
+            return get(n.left, k);
+        }else if (cmp == 0){
+            return n.value;
+        }
+        else{
+            return get(n.right, k);
+        }
+    }
+
+    // Return the node whose key is k.
+    private Node getNode(K k){
+        Node n = root;
+        if (n == null){
+            throw new IllegalArgumentException("A null key in get(K)");
+        }
+        if (k == null){
+            throw new IllegalArgumentException("Null argument key in get()");
+        }
+        while (n != null){
+            int cmp = k.compareTo(n.key);
+            if (cmp < 0){
+                n = n.left;
+            }else if (cmp == 0){
+                return n;
+            }else{
+                n = n.right;
+            }
+        }
+        return null;
+    }
+
+    /* Returns the number of key-value mappings in this map. */
+    @Override
+    public int size(){return size;}
+
+    /* Associates the specified value with the specified key in this map. */
+    @Override
+    public void put(K k, V v){
+        // Do not allow duplicates.
+        if (root == null)   root = new Node(k, v);
+        if (k == null || containsKey(k)){
+            return;
+        }
+        Node p = root.parent;
+        put(root, p, k, v);
+        size++;
+    }
+    /* private helper function deal with put() recursively.*/
+    private void put(Node n, Node p, K k, V v){
+        if (n == null){
+            n = new Node(k, v);
+            n.parent = p;
+            int cmp = n.key.compareTo(p.key);
+            if (cmp < 0){
+                p.left = n;
+            }else{
+                p.right = n;
+            }
+            return;
+        }
+        int cmp = k.compareTo(n.key);
+        if (cmp < 0){
+            p = n;
+            put(n.left, p, k, v);
+        }else {
+            // Must have cmp > 0. No equals
+            p = n;
+            put(n.right, p, k, v);
+        }
+    }
+
+    /* Returns a Set view of the keys contained in this map. */
+    @Override
+    public Set<K> keySet(){return null;}
+
+    @Override
+    public V remove(K k){
+        if (size == 0){
+            System.out.println("This map is empty, you cannot remove sth from it.");
+            return null;
+        }
+        if (k == null){
+            throw new IllegalArgumentException("A null key in remove()");
+        }
+        Node toBeRemoved = getNode(k);
+        if (toBeRemoved == null){
+            System.out.println("There is no such key in this map");
+            return null;
+        }
+        V toBeReturned = toBeRemoved.value;
+        switch (toBeRemoved.getChildrenNum()){
+            case 0:
+                removeNoChild(toBeRemoved);
+                break;
+            case 1:
+                removeOneChild(toBeRemoved);
+                break;
+            case 2:
+                removeTwoChild(toBeRemoved);
+                break;
+        }
+        return toBeReturned;
+    }
+
+    private void removeNoChild(Node n){
+        // case 0
+        Node p = n.parent;
+        // If only one node in this map.
+        if (p == null){
+            clear();
+            return;
+        }
+        else if (p.left == n){
+            p.left = null;
+        }else{
+            p.right = null;
+        }
+        n.parent = null;
+    }
+    // remove() call when Node n has exactly one child.
+    private void removeOneChild(Node n){
+        Node p = n.parent;
+        // If Node n is root.
+        if (p == null){
+            if (n.left != null){
+                root = n.left;
+                root.parent = null;
+            }else{
+                root = n.right;
+                root.parent = null;
+            }
+            return;
+        }
+        else{
+            Node child;
+            if (n.left != null){
+                child = n.left;
+                child.parent = p;
+                if (n == p.left){
+                    p.left = child;
+                }
+                else{
+                    p.right = child;
+                }
+            }
+            else{
+                //n.right != null
+                child = n.right;
+                child.parent = p;
+                if (n == p.left){
+                    p.left = child;
+                }
+                else{
+                    p.right = child;
+                }
+            }
+        }
+    }
+    private void removeTwoChild(Node n){
+        Node suc = successor(n);
+        n.key = suc.key;
+        n.value = suc.value;
+        if (suc == suc.parent.left){
+            suc.parent.left = null;
+        }
+        else{
+            suc.parent.right = null;
+        }
+        suc.parent = null;
+    }
+
+    // Return null if n is null or n has no right child, otherwise returns its successor.
+    private Node successor(Node n){
+        if (n == null || n.right == null){
+            return null;
+        }
+        n = n.right;
+        while (n.left != null){
+            n = n.left;
+        }
+        return n;
+    }
+
+    @Override
+    public V remove(K k, V v){
+        Node n = getNode(k);
+        if (n.value != v){
+            System.out.println("There is no such mapping in this map.");
+            return null;
+        }
+        return remove(k);
+    }
+
+    @Override
+    public Iterator<K> iterator(){throw new UnsupportedOperationException();}
+/**
+    private class BSTMapIterator implements Iterator<K>{
+        public BSTMapIterator(){
+            iterator = root;
+        }
+        public Node iterator;
+        @Override
+        public boolean hasNext(){return false;}
+
+        @Override
+        public Node next(){return null;}
+    }
+        */
+}

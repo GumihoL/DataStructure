@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e71dae6-4df0-44b3-ba90-4532b0fca576" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1UaTa7EQizOBHnkucbAEvIl8HsW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.KDTreeTest.testWith1000Points">
+    <configuration name="KDTreeTest.testBoring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj2ab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bearmaps" />
+      <option name="MAIN_CLASS_NAME" value="bearmaps.KDTreeTest" />
+      <option name="METHOD_NAME" value="testBoring" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KDTreeTest.testGoodSide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj2ab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bearmaps" />
+      <option name="MAIN_CLASS_NAME" value="bearmaps.KDTreeTest" />
+      <option name="METHOD_NAME" value="testGoodSide" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KDTreeTest.testNearestWithLectureDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj2ab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bearmaps" />
+      <option name="MAIN_CLASS_NAME" value="bearmaps.KDTreeTest" />
+      <option name="METHOD_NAME" value="testNearestWithLectureDemo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KDTreeTest.testNearestWithLectureDemo100Queries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj2ab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bearmaps" />
+      <option name="MAIN_CLASS_NAME" value="bearmaps.KDTreeTest" />
+      <option name="METHOD_NAME" value="testNearestWithLectureDemo100Queries" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KDTreeTest.testWith1000Points" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj2ab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bearmaps" />
+      <option name="MAIN_CLASS_NAME" value="bearmaps.KDTreeTest" />
+      <option name="METHOD_NAME" value="testWith1000Points" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.KDTreeTest.testWith1000Points" />
+        <item itemvalue="JUnit.KDTreeTest.testBoring" />
+        <item itemvalue="JUnit.KDTreeTest.testNearestWithLectureDemo100Queries" />
+        <item itemvalue="JUnit.KDTreeTest.testGoodSide" />
+        <item itemvalue="JUnit.KDTreeTest.testNearestWithLectureDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e71dae6-4df0-44b3-ba90-4532b0fca576" name="Default Changelist" comment="" />
+      <created>1575593768178</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575593768178</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="p" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37dc51a7-f606-467f-97fd-aba639ba049b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1VMoMpLp7oBahY8Sh2QtIykYZmj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestSortAlgs.testQuickSort">
+    <configuration name="MergeSort.testMakeSingleItemQueues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MergeSort" />
+      <option name="METHOD_NAME" value="testMakeSingleItemQueues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort.testMergeSortedQueues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MergeSort" />
+      <option name="METHOD_NAME" value="testMergeSortedQueues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort.testPartition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuickSort" />
+      <option name="METHOD_NAME" value="testPartition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSortAlgs.testMergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSortAlgs" />
+      <option name="METHOD_NAME" value="testMergeSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSortAlgs.testQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSortAlgs" />
+      <option name="METHOD_NAME" value="testQuickSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestSortAlgs.testQuickSort" />
+        <item itemvalue="JUnit.QuickSort.testPartition" />
+        <item itemvalue="JUnit.TestSortAlgs.testMergeSort" />
+        <item itemvalue="JUnit.MergeSort.testMergeSortedQueues" />
+        <item itemvalue="JUnit.MergeSort.testMakeSingleItemQueues" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37dc51a7-f606-467f-97fd-aba639ba049b" name="Default Changelist" comment="" />
+      <created>1577072279554</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577072279554</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

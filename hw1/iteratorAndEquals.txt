@@ -1,0 +1,77 @@
+public interface BoundedQueue<T> extends Iterable<T>{ // 为了让系统找到我们的iterator，
+														// 我们的BoundedQueue接口得继承 java.util.Iterable类
+														//Iterable类里有一个iterator（）方法
+    // Methods in interface is abstract and public automatically
+
+    int capacity(); // return size of the buffer
+    int fillCount(); // return number of items currently in the buffer
+    void enqueue(T x); // add item x to the end
+    T dequeue(); // delete and return item from the front
+    T peek(); //return (but do not delete) item from the front
+    default boolean isEmpty(){return fillCount() == 0;}
+    default boolean isFull(){return fillCount() == capacity();}
+
+    @Override
+    Iterator<T> iterator();
+}
+
+private class ArrayRingBufferIterator implements Iterator<T>{ //定义一个私有类来定制我们的iterator
+															//我们的iterator得实现java.util.Iterator接口
+															//这个接口里有hasNext（）和next（）方法。
+        private int currPos;
+        private int count;
+
+        public ArrayRingBufferIterator(){
+            currPos = first;
+        }
+
+        @Override
+        public boolean hasNext(){
+            return count < fillCount();
+        }
+
+        @Override
+        public T next(){
+            T toBeReturned = rb[currPos];
+            first = (first + 1) % capacity();
+            count += 1;
+            return toBeReturned;
+        }
+    }
+    @Override
+    public Iterator<T> iterator(){
+        return new ArrayRingBufferIterator();
+    }
+
+    @Override
+    public boolean equals(Object other){	//重写equals方法。是不是自己，other是不是空，是不是同类，同类
+											//才可以安全的类型转换
+											//然后才是具体的比较。
+        // Compare to itself			
+        if (other == this){
+            return true;
+        }
+
+        // If other is null, return false
+        if (other == null){
+            return false;
+        }
+        // Different classes
+        if (this.getClass() != other.getClass()){
+            return false;
+        }
+        // Safely cast
+        ArrayRingBuffer<T> o = (ArrayRingBuffer<T>) other;
+        if (o.fillCount() != this.fillCount()){
+            return false;
+        }
+
+        Iterator<T> thisIterator = this.iterator();
+        Iterator<T> otherIterator = o.iterator();
+        while (thisIterator.hasNext() && otherIterator.hasNext()){
+            if (thisIterator.next() != otherIterator.next()){
+                return false;
+            }
+        }
+        return true;
+    }

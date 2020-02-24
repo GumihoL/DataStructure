@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65cf0512-c3f0-4d12-82fa-39a52c1ca51b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1V5mHhQGOakhArLPq5VUI1R5Pss" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bearmaps/hw4/streetmap" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\MIT\CS61B\skeleton-sp19\hw4\bearmaps\hw4\streetmap" />
+      <recent name="G:\MIT\CS61B\skeleton-sp19\hw4\bearmaps\hw4\slidingpuzzle" />
+      <recent name="G:\MIT\CS61B\skeleton-sp19\hw4\bearmaps\proj2ab" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DemoWordPuzzleSolution">
+    <configuration name="DemoLectureExampleSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bearmaps.hw4.lectureexample.DemoLectureExampleSolution" />
+      <module name="hw4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.hw4.lectureexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoRunSeveralPuzzles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bearmaps.hw4.slidingpuzzle.DemoRunSeveralPuzzles" />
+      <module name="hw4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.hw4.slidingpuzzle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoSlidingPuzzleSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bearmaps.hw4.slidingpuzzle.DemoSlidingPuzzleSolution" />
+      <module name="hw4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.hw4.slidingpuzzle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoStreetDirections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bearmaps.hw4.streetmap.DemoStreetDirections" />
+      <module name="hw4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.hw4.streetmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoWordPuzzleSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bearmaps.hw4.wordladderpuzzle.DemoWordPuzzleSolution" />
+      <module name="hw4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.hw4.wordladderpuzzle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DemoWordPuzzleSolution" />
+        <item itemvalue="Application.DemoStreetDirections" />
+        <item itemvalue="Application.DemoRunSeveralPuzzles" />
+        <item itemvalue="Application.DemoSlidingPuzzleSolution" />
+        <item itemvalue="Application.DemoLectureExampleSolution" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65cf0512-c3f0-4d12-82fa-39a52c1ca51b" name="Default Changelist" comment="" />
+      <created>1576551245398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576551245398</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bearmaps/hw4/slidingpuzzle/Board.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="edgeTo" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

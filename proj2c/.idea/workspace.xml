@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0228400-d226-4725-9a11-47774f2ebee6" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1VQcNYePhXJvLzmgLQjnsUl2agG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../library-sp19/javalib/proj2c" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MapServer">
+    <configuration name="MapServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bearmaps.proj2c.MapServer" />
+      <module name="proj2c" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.proj2c.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyTrieSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj2c" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.lab9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bearmaps.lab9" />
+      <option name="MAIN_CLASS_NAME" value="bearmaps.lab9.TestMyTrieSet" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyTrieSet.sanityClearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj2c" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.lab9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bearmaps.lab9" />
+      <option name="MAIN_CLASS_NAME" value="bearmaps.lab9.TestMyTrieSet" />
+      <option name="METHOD_NAME" value="sanityClearTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRouter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj2c" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bearmaps.test" />
+      <option name="MAIN_CLASS_NAME" value="bearmaps.test.TestRouter" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRouter.testShortestPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj2c" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bearmaps.test" />
+      <option name="MAIN_CLASS_NAME" value="bearmaps.test.TestRouter" />
+      <option name="METHOD_NAME" value="testShortestPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MapServer" />
+        <item itemvalue="JUnit.TestMyTrieSet" />
+        <item itemvalue="JUnit.TestMyTrieSet.sanityClearTest" />
+        <item itemvalue="JUnit.TestRouter.testShortestPath" />
+        <item itemvalue="JUnit.TestRouter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0228400-d226-4725-9a11-47774f2ebee6" name="Default Changelist" comment="" />
+      <created>1577188720897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577188720897</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
